@@ -1,0 +1,29 @@
+// /siteweb/PluginsModules/stephane888/wbu-components/src/components/App/GestionTache/scss/style.scss
+/**
+ * import ckeditor css
+ */
+//@import "../../../../../node_modules/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css";
+@import "/siteweb/PluginsModules/stephane888/wbu-components/node_modules/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime";
+/**
+ * Represente un bloc avec un bouton d'action sur la droite.
+ * Cela peut etre un bloc avec un bouton de suppression ou d'ajout.
+ */
+.bloc-with-button {
+  width: 100%;
+
+  .bloc-datas {
+    flex-basis: 100%;
+  }
+
+  .bloc-button {
+    margin-left: 1.5em;
+  }
+}
+
+.card-body {
+  .bloc-with-delete {
+    .bloc-button {
+      margin-top: 2em;
+    }
+  }
+}
